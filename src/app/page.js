@@ -24,7 +24,7 @@ import Footer from "@/components/footer/footer";
 
 export default function Home() {
   return (
-    <div className=" flex flex-col">
+    <div className="w-[99.9%] overflow-hidden flex flex-col font-rotunda">
         <NavBar/>
         <HeroSections/>
         <Categories/>
