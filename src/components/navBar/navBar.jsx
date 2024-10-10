@@ -56,9 +56,9 @@ export default function NavBar() {
               <Link href="/"> Work </Link>
             </div>
             <div className="text-[20px] flex flex-row justify-evenly items-center gap-[30px]">
-              <HiMail />
-              <IoIosNotifications />
-              <IoPersonCircle />
+              <Link href="/"> <HiMail /> </Link>
+              <Link href="/"> <IoIosNotifications /> </Link>
+              <Link href="/accountPage/account"> <IoPersonCircle /> </Link>
             </div>
           </div>
         </div>
