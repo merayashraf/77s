@@ -21,7 +21,7 @@ return (
               </select>
               <p className="text-[7px] md:text-sm text-gray-400">Project 1 to 1</p>
             </div>
-            <button className="ms-7 px-3 md:px-8 p-3 md:py-7 bg-red-500 text-white font-semibold rounded-e-md shadow-md hover:bg-red-600 focus:outline-none">Start</button>
+            <button className="ms-7 px-3 md:px-8 p-3 md:py-7 bg-[#FF5F6B] text-white font-semibold rounded-e-md shadow-md hover:bg-red-600 focus:outline-none">Start</button>
           </div>
         </div>
         <div className="flex flex-row items-center justify-end w-[70%] md:w-[35%]">
