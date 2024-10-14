@@ -39,7 +39,7 @@ export default function NavBar() {
             </div>
           )}
           {/* Menu For Large Screens */}
-          <div className="flex flex-row items-center gap-10 lg:gap-[70px]">
+          <div className="flex flex-row items-start gap-10 lg:gap-[70px]">
             <button className='block lg:hidden' onClick={() => setOpenMenu(!openMenu)}>
               <IoMenu className='text-[20px]' />
             </button>
