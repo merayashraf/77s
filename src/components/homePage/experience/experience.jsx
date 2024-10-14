@@ -4,10 +4,10 @@ import React from 'react'
 export default function Experience() {
   return (
     <div className="w-full mb-[10%]">
-      <h1 className="flex flex-row justify-center container my-[5%] text-[32px] md:text-[40px] text-[#FF5F6B]">
+      <h1 className="flex flex-row justify-center container ps-5 my-[5%] text-[32px] md:text-[40px] text-[#FF5F6B]">
         How it works & Experience
       </h1>
-      <div className="w-full flex flex-col md:flex-col lg:flex-row items-center container">
+      <div className="w-full flex gap-6 lg:gap-0 flex-col md:flex-col lg:flex-row items-center container">
         <div className="flex flex-col container">
           <h1 className="text-[24px] md:text-[32px] text-[#4747C7] mx-[10%] md:mx-[18%] font-bold mt-[5%] mb-[3%]">
             Contest Steps
