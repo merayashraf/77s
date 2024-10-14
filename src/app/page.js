@@ -32,7 +32,6 @@ export default function Home() {
         <Hiring/>        
         <ContactUs/>
         <Footer/>
-    </div>  
-    
+    </div>
   );
 }

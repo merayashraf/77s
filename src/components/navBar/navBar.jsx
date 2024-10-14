@@ -29,13 +29,13 @@ export default function NavBar() {
           {/* Menu For Small Screens */}
           {openMenu && (
             <div ref={menuRef} className='absolute component flex flex-col -bottom-60 z-[100] gap-2 bg-white shadow-md rounded-md w-[180px] p-3'>
-              <Link href="/"> Categories </Link>
+              <Link href="/memo"> Categories </Link>
               <Link href="/"> Discover </Link>
               <Link href="/"> Designers </Link>
               <Link href="/"> Find contests </Link>
               <Link href="/"> Find Projects </Link>
               <Link href="/"> Help </Link>
-              <Link href="/"> Work </Link>
+              <Link href="/work"> Work </Link>
             </div>
           )}
           {/* Menu For Large Screens */}
@@ -45,7 +45,7 @@ export default function NavBar() {
             </button>
             <Image src="/asset/logo.png" width={200} height={200} className='w-[100px] lg:w-[200px]' alt="Logo" />
             <div className='hidden lg:flex flex-row gap-[70px] my-auto'>
-              <Link href="/"> Categories </Link>
+              <Link href="/memo"> Categories </Link>
               <Link href="/"> Discover </Link>
               <Link href="/"> Designers </Link>
             </div>
@@ -58,7 +58,7 @@ export default function NavBar() {
             <div className="text-[20px] flex flex-row justify-evenly items-center gap-[30px]">
               <Link href="/"> <HiMail /> </Link>
               <Link href="/"> <IoIosNotifications /> </Link>
-              <Link href="/accountPage/account"> <IoPersonCircle /> </Link>
+              <Link href="/"> <IoPersonCircle /> </Link>
             </div>
           </div>
         </div>
