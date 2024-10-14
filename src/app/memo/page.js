@@ -10,12 +10,12 @@ export default function Memo() {
                 <h1 className="text-3xl font-semibold py-[5%] px-[10%] text-[#545457]">All Categories</h1>
                 <div className="flex flex-row gap-4 py-4">
                     <div className="flex flex-row items-center gap-20">
-                        <Image src="/asset/cate0.png" width={215} height={215} alt="Logo & Brand identity"/>
-                        <Image src="/asset/cate1.png" width={180} height={180} alt="Business & Advertising"/>
-                        <Image src="/asset/cate2.png" width={180} height={180} alt="Illustration & Graphics"/>
-                        <Image src="/asset/cate3.png" width={180} height={180} alt="Web & App Design"/>
-                        <Image src="/asset/cate4.png" width={180} height={180} alt="Clothing & Merchandise"/>
-                        <Image src="/asset/cate5.png" width={180} height={180} alt="Others"  />
+                        <Image src="/assets/cate0.png" width={215} height={215} alt="Logo & Brand identity"/>
+                        <Image src="/assets/cate1.png" width={180} height={180} alt="Business & Advertising"/>
+                        <Image src="/assets/cate2.png" width={180} height={180} alt="Illustration & Graphics"/>
+                        <Image src="/assets/cate3.png" width={180} height={180} alt="Web & App Design"/>
+                        <Image src="/assets/cate4.png" width={180} height={180} alt="Clothing & Merchandise"/>
+                        <Image src="/assets/cate5.png" width={180} height={180} alt="Others"  />
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@ export default function Memo() {
                     <div className="border-b border-[#545457] w-[90%]"></div>
                 </div>
                 <div className="flex flex-row items-center justify-end w-[100%]">
-                    <Image src= "/asset/photo14.png" className="flex justify-center w-full" width={559} height={506} alt="Photo14"/>
+                    <Image src= "/assets/photo14.png" className="flex justify-center w-full" width={559} height={506} alt="Photo14"/>
                 </div>
             </div>
 

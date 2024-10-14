@@ -25,15 +25,15 @@ return (
           </div>
         </div>
         <div className="flex flex-row items-center justify-end w-[70%] md:w-[35%]">
-          <Image src= "/asset/photo2.png" className="w-full" width={400} height={512} alt="Photo2"/>
+          <Image src= "/assets/photo2.png" className="w-full" width={400} height={512} alt="Photo2"/>
         </div>
       </div>
 
       <div className="container flex mx-auto px-8 md:px-24 py-16">
         <div className="flex flex-row items-center mx-auto gap-5">
-          <Image src= "/asset/photo3.png" width={45} className='w-[50px] h-[25px]' height={10} alt="Photo3"/>
+          <Image src= "/assets/photo3.png" width={45} className='w-[50px] h-[25px]' height={10} alt="Photo3"/>
           <h1 className="flex flex-row text-[#FF5F6B] text-center text-[20px] md:text-[2.5vw]">IP PROTECTION FOR YOUR DESIGNS - 100% GUARANTEE</h1>
-          <Image src= "/asset/photo4.png" width={35} height={10} alt="Photo4" className='w-[50px] h-[25px]'/>
+          <Image src= "/assets/photo4.png" width={35} height={10} alt="Photo4" className='w-[50px] h-[25px]'/>
         </div>
       </div>
   </div>

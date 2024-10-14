@@ -48,7 +48,7 @@ export default function Footer() {
             </div>
 
             <div className="flex my-5 lg:hidden flex-row items-center gap-1 text-[13.4px]">
-            <Image src= "/asset/photo13.png" className='object-cover' width={15} height={15} alt="Photo13"/>
+            <Image src= "/assets/photo13.png" className='object-cover' width={15} height={15} alt="Photo13"/>
               <h1 className="">Contact</h1>
             </div>
           </div>
@@ -75,7 +75,7 @@ export default function Footer() {
             </div>
 
             <div className="flex flex-row ">
-              <Image src= "/asset/photo13.png" className='object-scale-down' width={35} height={25} alt="Photo13"/>
+              <Image src= "/assets/photo13.png" className='object-scale-down' width={35} height={25} alt="Photo13"/>
               <h1 className="text-[1.7vw] mx-3">Contact</h1>
             </div>
           </div>
@@ -85,9 +85,9 @@ export default function Footer() {
         <footer className="bg-[#13192E] py-14">
           <div className="container mx-auto flex flex-row justify-between items-center px-4 lg:px-32">
             <div className="flex flex-row items-center">
-              <Image src= "/asset/logo2.png" className="hidden lg:block" width={200} height={50} alt="Logo2"/>
+              <Image src= "/assets/logo2.png" className="hidden lg:block" width={200} height={50} alt="Logo2"/>
               <div className="relative w-[85px] h-[22.5px] block lg:hidden">
-              <Image src= "/asset/logo2.png" fill alt="Logo2"/>
+              <Image src= "/assets/logo2.png" fill alt="Logo2"/>
               </div>
               <div className="border-l-2 border-[#F5F7FA] h-6 mx-2 lg:mx-6"></div>
               <div className="text-[#F5F7FA] text-[10px] md:text-[1.3vw] ">
