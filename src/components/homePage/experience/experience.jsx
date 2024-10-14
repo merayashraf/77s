@@ -28,7 +28,7 @@ export default function Experience() {
         </div>
         <div className="container w-full flex justify-center sm:my-9 md:justify-start">
           <Image 
-            src="/asset/photo11.png" width={576} height={489} alt="Photo11" 
+            src="/assets/photo11.png" width={576} height={489} alt="Photo11" 
             className="max-w-[80%] h-auto mt-[10px] sm:mx-32 md:mt-[10px] md:w-[480px] md:h-[409px]" 
           />
         </div>
