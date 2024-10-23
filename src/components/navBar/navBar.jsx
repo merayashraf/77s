@@ -53,12 +53,12 @@ export default function NavBar() {
           <div className="flex flex-row gap-[50px]">
             <div className='hidden lg:flex flex-row gap-[50px]'>
               <Link href="/"> Help </Link>
-              <Link href="/"> Work </Link>
+              <Link href="/work"> Work </Link>
             </div>
             <div className="text-[20px] flex flex-row justify-evenly items-center gap-[30px]">
               <Link href="/"> <HiMail /> </Link>
               <Link href="/"> <IoIosNotifications /> </Link>
-              <Link href="/"> <IoPersonCircle /> </Link>
+              <Link href="/account"> <IoPersonCircle /> </Link>
             </div>
           </div>
         </div>
