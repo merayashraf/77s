@@ -35,6 +35,7 @@ export default function Memo() {
     }, []);
 
     return (
+<<<<<<< HEAD
         <div className="font-rotunda">
             <div className="w-full relative flex bg-[#F5F7FA] flex-row items-center text-[17px] justify-between py-[30px] px-7 lg:px-[100px]">
                 {/* Menu For Small Screens */}
@@ -71,6 +72,46 @@ export default function Memo() {
                             <Link href="/"> <IoIosNotifications /> </Link>
                             <Link href="/"> <IoPersonCircle /> </Link>
                         </div>
+=======
+        <div>
+            <div className="flex flex-col items-start bg-[#F5F7FA] px-10">
+                <h1 className="text-3xl font-semibold py-[5%] px-[10%] text-[#545457]">All Categories</h1>
+                <div className="flex flex-row gap-4 py-4">
+                    <div className="flex flex-row items-center gap-20">
+                        <Image src="/assets/cate0.png" width={215} height={215} alt="Logo & Brand identity"/>
+                        <Image src="/assets/cate1.png" width={180} height={180} alt="Business & Advertising"/>
+                        <Image src="/assets/cate2.png" width={180} height={180} alt="Illustration & Graphics"/>
+                        <Image src="/assets/cate3.png" width={180} height={180} alt="Web & App Design"/>
+                        <Image src="/assets/cate4.png" width={180} height={180} alt="Clothing & Merchandise"/>
+                        <Image src="/assets/cate5.png" width={180} height={180} alt="Others"  />
+                    </div>
+                </div>
+            </div>
+
+            <div className="flex flex-row text-[#545457] py-28 w-[90%] overflow-hidden">
+                <div className="flex flex-col px-48 gap-5 sm:justify-center lg:justify-normal text-[22px] w-[97%] md:w-[88%] mx-auto">
+                    <h1>Logo design</h1>
+                    <div className="border-b border-[#545457] w-[90%]"></div>
+                    <h1>Logo & brand identity pack</h1>
+                    <div className="border-b border-[#545457] w-[90%]"></div>
+                    <h1>Logo & social media pack</h1>
+                    <div className="border-b border-[#545457] w-[90%]"></div>
+                    <h1>Logo & website Design</h1>
+                    <div className="border-b border-[#545457] w-[90%]"></div>
+                    <h1>Logo & business card</h1>
+                    <div className="border-b border-[#545457] w-[90%]"></div>
+                    <h1>Logo & Brand guide</h1>
+                    <div className="border-b border-[#545457] w-[90%]"></div>
+                    <h1>Logo & product packaging</h1>
+                    <div className="border-b border-[#545457] w-[90%]"></div>
+                    <h1>Business card</h1>
+                    <div className="border-b border-[#545457] w-[90%]"></div>
+                    <h1>Stationery</h1>
+                    <div className="border-b border-[#545457] w-[90%]"></div>
+                </div>
+                <div className="flex flex-row items-center justify-end w-[100%]">
+                    <Image src= "/assets/photo14.png" className="flex justify-center w-full" width={559} height={506} alt="Photo14"/>
+>>>>>>> da4c734e139889cd2d72293e315d4a41952fe84f
                 </div>
             </div>
 

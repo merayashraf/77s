@@ -39,11 +39,11 @@ export default function NavBar() {
             </div>
           )}
           {/* Menu For Large Screens */}
-          <div className="flex flex-row items-center gap-10 lg:gap-[70px]">
+          <div className="flex flex-row items-start gap-10 lg:gap-[70px]">
             <button className='block lg:hidden' onClick={() => setOpenMenu(!openMenu)}>
               <IoMenu className='text-[20px]' />
             </button>
-            <Image src="/asset/logo.png" width={200} height={200} className='w-[100px] lg:w-[200px]' alt="Logo" />
+            <Image src="/assets/logo.png" width={200} height={200} className='w-[100px] lg:w-[200px]' alt="Logo" />
             <div className='hidden lg:flex flex-row gap-[70px] my-auto'>
               <Link href="/memo"> Categories </Link>
               <Link href="/"> Discover </Link>
