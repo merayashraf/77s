@@ -67,20 +67,21 @@ export default function Account() {
                 </div>
             </div>
 
-            {/* Account Settings Header */}
             <div className="py-2 bg-[#F5F7FA]">
                 <h1 className="text-2xl sm:text-3xl py-4 lg:px-[7%] px-8 font-bold text-[#545457]">Account Settings </h1>
                 <div className="flex overflow-x-auto whitespace-nowrap text-[15px] md:text-[22px] lg:gap-[15%] gap-20 lg:px-[7%] px-8">
                     <Link href="/" className="text-[#3D3D3F]"> General </Link>
-                    <Link href="/" className="text-[#9E9EA3]"> Profile </Link>
+                    <Link href="/account/profile" className="text-[#9E9EA3]"> Profile </Link>
                     <Link href="/" className="text-[#9E9EA3]"> Notifications </Link>
                     <div className="hidden sm:flex lg:gap-[75%]">
                         <Link href="/" className="text-[#9E9EA3]"> ID verification </Link>
                         <Link href="/" className="text-[#9E9EA3]"> Membership </Link>
                     </div>
+                    {/* <div className="hidden lg:flex ">
+                        <p className="text-[#FF5F6B]">....</p>
+                    </div> */}
                 </div>
             </div>
-
 
             <div className="px-6 sm:px-8 md:px-10 py-10">
                 <form className="space-y-6">
@@ -91,19 +92,19 @@ export default function Account() {
                             className="w-full border border-[#707070] rounded-md p-3 sm:p-4"
                         />
                     </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div className="grid grid-cols-2 sm:grid-cols-2 gap-6">
                         <div>
                             <label className="block text-base sm:text-lg text-[#545457]">First Name</label>
                             <input
                                 type="text"
-                                className="lg:w-full w-[40%] border border-[#707070] rounded-md p-3 sm:p-4"
+                                className="w-full border border-[#707070] rounded-md p-3 sm:p-4"
                             />
                         </div>
                         <div>
                             <label className="block text-base sm:text-lg text-[#545457]">Last Name</label>
                             <input
                                 type="text"
-                                className="lg:w-full w-[40%] border border-[#707070] rounded-md p-3 sm:p-4"
+                                className="w-full border border-[#707070] rounded-md p-3 sm:p-4"
                             />
                         </div>
                     </div>
@@ -114,49 +115,49 @@ export default function Account() {
                             className="w-full border border-[#707070] rounded-md p-3 sm:p-4"
                         />
                     </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-3 sm:grid-cols-3 gap-6">
                         <div>
                             <label className="block text-base sm:text-lg text-[#545457]">Time zone</label>
                             <input
                                 type="text"
-                                className="lg:w-full w-[30%] border border-[#707070] rounded-md p-3 sm:p-4"
+                                className="w-full border border-[#707070] rounded-md p-3 sm:p-4"
                             />
                         </div>
                         <div>
                             <label className="block text-base sm:text-lg text-[#545457]">Country</label>
                             <input
                                 type="text"
-                                className="lg:w-full w-[30%] border border-[#707070] rounded-md p-3 sm:p-4"
+                                className="w-full border border-[#707070] rounded-md p-3 sm:p-4"
                             />
                         </div>
                         <div>
                             <label className="block text-base sm:text-lg text-[#545457]">City State (opt.)</label>
                             <input
                                 type="text"
-                                className="lg:w-full w-[30%] border border-[#707070] rounded-md p-3 sm:p-4"
+                                className="w-full border border-[#707070] rounded-md p-3 sm:p-4"
                             />
                         </div>
                     </div>
-                    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+                    <div className="grid grid-cols-3 sm:grid-cols-3 gap-6">
                         <div>
                             <label className="block text-base sm:text-lg text-[#545457]">State (opt.)</label>
                             <input
                                 type="text"
-                                className="lg:w-full w-[30%] border border-[#707070] rounded-md p-3 sm:p-4"
+                                className="w-full border border-[#707070] rounded-md p-3 sm:p-4"
                             />
                         </div>
                         <div>
                             <label className="block text-base sm:text-lg text-[#545457]">Zip (opt.)</label>
                             <input
                                 type="text"
-                                className="lg:w-full w-[30%] border border-[#707070] rounded-md p-3 sm:p-4"
+                                className="w-full border border-[#707070] rounded-md p-3 sm:p-4"
                             />
                         </div>
                         <div>
                             <label className="block text-base sm:text-lg text-[#545457]">Phone Number</label>
                             <input
                                 type="text"
-                                className="lg:w-full w-[30%] border border-[#707070] rounded-md p-3 sm:p-4"
+                                className="w-full border border-[#707070] rounded-md p-3 sm:p-4"
                             />
                         </div>
                     </div>
@@ -168,24 +169,38 @@ export default function Account() {
                 </form>
             </div>
 
-            {/* Footer Section */}
-            <footer className="bg-[#13192E] py-4 sm:py-6">
-                <div className="container mx-auto flex flex-col md:flex-row justify-between items-center px-4 lg:px-32">
-                    <div className="flex flex-col md:flex-row items-center">
+            <div className="">
+                <footer className="bg-[#13192E] py-14">
+                    <div className="container mx-auto flex flex-row justify-between items-center px-4 lg:px-32">
+                        <div className="flex flex-row items-center">
                         <Image src= "/asset/logo2.png" width={200} height={50} alt="Logo2"/>
-                        <div className="border-l-2 border-[#F5F7FA] h-6 mx-6 hidden md:block"></div>
-                        <div className="text-[#F5F7FA]">Terms</div>
-                        <div className="border-l-2 border-[#F5F7FA] h-6 mx-6 hidden md:block"></div>
-                        <div className="text-[#F5F7FA]">Privacy</div>
+                        <div className="border-l-2 border-[#F5F7FA] h-6 mx-6"></div>
+                        <div className="text-[#F5F7FA] text-[1.3vw] ">
+                            Terms
+                        </div>
+                        <div className="border-l-2 border-[#F5F7FA] h-6 mx-6"></div>
+                        <div className="text-[#F5F7FA] text-[1.3vw] ">
+                            Privacy
+                        </div>
                     </div>
-                    <div className="flex items-center gap-4 mt-4 md:mt-0">
-                        <SiBehance className="text-[#F5F7FA]" size={25} />
-                        <FaFacebookF className="text-[#F5F7FA]" size={25} />
-                        <FaInstagram className="text-[#F5F7FA]" size={25} />
-                        <FaXTwitter className="text-[#F5F7FA]" size={25} />
+
+                    <div className="flex flex-row items-center gap-6">
+                        <div className="text-[#F5F7FA] font-bold">
+                            <SiBehance size={35} />
+                        </div>
+                        <div className="text-[#F5F7FA] font-bold">
+                            <FaFacebookF size={35} />
+                        </div>
+                        <div className="text-[#F5F7FA] font-bold">
+                            <FaInstagram size={35} />
+                        </div>
+                        <div className="text-[#F5F7FA] ">
+                            <FaXTwitter size={35}/>
+                        </div>
+                        </div>
                     </div>
-                </div>
-            </footer>
+                </footer>
+            </div>
         </div>
     );
 }
